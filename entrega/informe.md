@@ -4,8 +4,8 @@
 Taller 3 - Arquitectura Actual del Sistema con el Modelo C4
 
 ## 👥 Integrantes del equipo
-- Nico (Nico-unisabana)
-- _[Agregar aquí los demás integrantes del equipo Nexio SAS]_
+- Nicolás Clavijo
+- Mauricio Suárez
 
 ## 🧠 Descripción general del trabajo
 El objetivo de este taller fue representar la arquitectura actual del sistema de nuestro cliente real, **Asul Tecnologías de la Información SAS**, usando las vistas C1 (Contexto) y C2 (Contenedores) del modelo C4, siguiendo la misma metodología de 4 pasos aplicada en clase sobre el caso base de RedExpress. Partimos de la Ficha de Caracterización del Cliente diligenciada con el equipo (Nexio SAS) y, a partir de los procesos de negocio ahí descritos, sintetizamos y modelamos la plataforma tecnológica que los soporta.
