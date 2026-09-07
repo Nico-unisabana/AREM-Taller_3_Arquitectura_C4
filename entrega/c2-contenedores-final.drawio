@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="C2 - Contenedores - Asul" id="lRXOsrOZA2PT5GYaXxv6">
+    <mxGraphModel dx="1363" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Cliente Estratégico&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Consultor / Desarrollador&#xa;de Asul" vertex="1">
+          <mxGeometry height="90" width="220" x="20" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Gerente de Proyecto" vertex="1">
+          <mxGeometry height="90" width="220" x="20" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
+          <mxGeometry height="120" width="240" x="1080" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-5" parent="bZnnQm2Kc5gS2wfdPVhh-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Sistemas de Información&#xa;del Cliente Estratégico" vertex="1">
+          <mxGeometry height="108" width="228" x="6" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
+          <mxGeometry height="130" width="240" x="1080" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-7" parent="bZnnQm2Kc5gS2wfdPVhh-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Organismo Certificador&#xa;de Calidad&#xa;(CMMI / MPS.Br / ISO 29110 / ITMark)" vertex="1">
+          <mxGeometry height="118" width="228" x="6" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontColor=#052e56;fontStyle=1;fontSize=13;" value="Plataforma de Gestión de Proyectos y Soporte (Asul Tecnologías de la Información SAS)" vertex="1">
+          <mxGeometry height="720" width="800" x="240" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-9" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Portal del Cliente&#xa;[Portal Web - ASP.NET MVC]" vertex="1">
+          <mxGeometry height="90" width="220" x="40" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-10" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Consola de Gestión de&#xa;Proyectos&#xa;[Aplicación Web - .NET]" vertex="1">
+          <mxGeometry height="90" width="220" x="480" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-11" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Bus de Integración SOA&#xa;[ESB - Servicios Web SOAP/REST]" vertex="1">
+          <mxGeometry height="90" width="240" x="260" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-12" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Gestión de&#xa;Desarrollo a la Medida&#xa;[Servicio SOA - .NET]" vertex="1">
+          <mxGeometry height="100" width="220" x="40" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-13" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Soporte Técnico&#xa;(Mesa de Ayuda)&#xa;[Servicio SOA - .NET]" vertex="1">
+          <mxGeometry height="100" width="220" x="480" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-14" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Gestión de&#xa;Calidad y Cumplimiento&#xa;[Servicio SOA - .NET]" vertex="1">
+          <mxGeometry height="100" width="240" x="550" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-15" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Base de Datos&lt;br&gt;Corporativa&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="300" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-24" edge="1" parent="bZnnQm2Kc5gS2wfdPVhh-8" source="bZnnQm2Kc5gS2wfdPVhh-13" target="bZnnQm2Kc5gS2wfdPVhh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;exitX=0.009;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;" value="SQL">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="424.9999999999999" as="sourcePoint" />
+            <mxPoint x="330" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-25" edge="1" parent="bZnnQm2Kc5gS2wfdPVhh-8" source="bZnnQm2Kc5gS2wfdPVhh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;exitX=0.088;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="bZnnQm2Kc5gS2wfdPVhh-14" value="Dispara evento — registra&amp;nbsp;&lt;div&gt;evidencia de cumplimiento&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.5721" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="59.4" y="567.54" />
+              <mxPoint x="540" y="567.54" />
+              <mxPoint x="540" y="630" />
+            </Array>
+            <mxPoint x="220" y="479.9999999999999" as="sourcePoint" />
+            <mxPoint x="630" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-16" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-9" value="HTTPS/JSON — solicita desarrollos&lt;div&gt;&amp;nbsp;y reporta incidentes&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0016" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="130" y="230" />
+              <mxPoint x="260" y="230" />
+              <mxPoint x="260" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-17" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-10" value="HTTPS — registra avances y atiende tickets">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-18" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-10" value="HTTPS — planifica y&amp;nbsp;&lt;div&gt;hace seguimiento&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1379" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="960" y="545" />
+              <mxPoint x="960" y="125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-19" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-11" value="SOAP/REST — enruta solicitud">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-20" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-11" value="SOAP/REST — enruta solicitud">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="200" />
+              <mxPoint x="630" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-21" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-12" value="REST interno — enruta solicitud de desarrollo">
+          <mxGeometry relative="1" x="0.8621" y="-20" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="620" y="360" />
+              <mxPoint x="390" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-22" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-13" value="REST interno — enruta&amp;nbsp;&lt;div&gt;incidente de soporte&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0034" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="630" y="370" />
+              <mxPoint x="830" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-23" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-15" value="SQL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-26" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-14" value="Dispara evento — registra&amp;nbsp;&lt;div&gt;evidencia de cumplimiento&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.3552" y="-192" as="geometry">
+            <mxPoint x="-190" y="-165" as="offset" />
+            <Array as="points">
+              <mxPoint x="850" y="570" />
+              <mxPoint x="910" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-27" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-15" value="SQL">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-28" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;" target="bZnnQm2Kc5gS2wfdPVhh-4" value="Servicios Web SOAP/REST — despliega e integra solución">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-29" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;" target="bZnnQm2Kc5gS2wfdPVhh-6" value="REST/Reporte — envía&amp;nbsp;&lt;div&gt;evidencias de cumplimiento&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="C1 - Contexto - Asul" id="Z_INb9Rux6oT5tNdTZLp">
+    <mxGraphModel dx="1986" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vlFTgVzaByjYsiWAXakF-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Cliente Estratégico&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="220" x="20" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Consultor / Desarrollador&#xa;de Asul" vertex="1">
+          <mxGeometry height="90" width="220" x="-50" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Gerente de Proyecto" vertex="1">
+          <mxGeometry height="90" width="220" x="20" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=13;fontStyle=1;" value="Plataforma de Gestión de&#xa;Proyectos y Soporte&#xa;(Asul Tecnologías de la&#xa;Información SAS)" vertex="1">
+          <mxGeometry height="170" width="280" x="380" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
+          <mxGeometry height="120" width="260" x="820" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-6" parent="vlFTgVzaByjYsiWAXakF-5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Sistemas de Información&#xa;del Cliente Estratégico" vertex="1">
+          <mxGeometry height="108" width="248" x="6" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
+          <mxGeometry height="130" width="260" x="820" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-8" parent="vlFTgVzaByjYsiWAXakF-7" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Organismo Certificador&#xa;de Calidad&#xa;(CMMI / MPS.Br / ISO 29110 / ITMark)" vertex="1">
+          <mxGeometry height="118" width="248" x="6" y="6" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-9" edge="1" parent="1" source="vlFTgVzaByjYsiWAXakF-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="vlFTgVzaByjYsiWAXakF-4" value="Solicita desarrollos a la medida y reporta incidentes de soporte">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-10" edge="1" parent="1" source="vlFTgVzaByjYsiWAXakF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="vlFTgVzaByjYsiWAXakF-4" value="Registra avances de desarrollo&lt;div&gt;&amp;nbsp;y resuelve tickets de soporte&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-11" edge="1" parent="1" source="vlFTgVzaByjYsiWAXakF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="vlFTgVzaByjYsiWAXakF-4" value="Planifica proyectos y hace seguimiento a indicadores">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-12" edge="1" parent="1" source="vlFTgVzaByjYsiWAXakF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;exitX=1.003;exitY=0.295;exitDx=0;exitDy=0;exitPerimeter=0;" target="vlFTgVzaByjYsiWAXakF-5" value="Despliega e integra soluciones a la medida (arquitectura SOA)">
+          <mxGeometry relative="1" x="0.5115" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vlFTgVzaByjYsiWAXakF-13" edge="1" parent="1" source="vlFTgVzaByjYsiWAXakF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;exitX=1.007;exitY=0.661;exitDx=0;exitDy=0;exitPerimeter=0;" target="vlFTgVzaByjYsiWAXakF-7" value="Envía evidencias de cumplimiento para auditorías de certificación">
+          <mxGeometry relative="1" x="0.5208" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
