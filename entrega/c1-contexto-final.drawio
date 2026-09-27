@@ -1,36 +1,115 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile host="app.diagrams.net">
-  <diagram name="C1 - Contexto - Asul" id="asul-c1-contexto">
-    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1200" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="a-analista" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Analista de Sistemas de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Apoya al líder técnico en la gestión y diagnóstico de casos de soporte&lt;/i&gt;" vertex="1"><mxGeometry x="0" y="170" width="240" height="110" as="geometry" /></mxCell>
-        <mxCell id="a-lider" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Líder Técnico de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Gestiona los casos de soporte y es quien, por lo general, despliega a producción&lt;/i&gt;" vertex="1"><mxGeometry x="0" y="390" width="240" height="110" as="geometry" /></mxCell>
-        <mxCell id="a-equipo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Equipo de Desarrollo y Pruebas de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Desarrolladores y testers (menos de 10 personas) en equipos propios&lt;/i&gt;" vertex="1"><mxGeometry x="0" y="610" width="240" height="110" as="geometry" /></mxCell>
-        <mxCell id="a-rentec" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Cliente Rentec&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Aprueba por correo documentos de requisitos y estimaciones&lt;/i&gt;" vertex="1"><mxGeometry x="380" y="0" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="a-sbs" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Mesa de Primer Nivel de SBS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Cliente final de Rentec: crea y analiza tickets y los escala a Rentec&lt;/i&gt;" vertex="1"><mxGeometry x="900" y="0" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="x-correo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Correo Electrónico&lt;/b&gt;&lt;br&gt;[Microsoft 365 / Outlook]&lt;br&gt;&lt;br&gt;&lt;i&gt;Notificaciones de Jira y aprobaciones formales del cliente&lt;/i&gt;" vertex="1"><mxGeometry x="380" y="170" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="x-jira" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Jira de Rentec&lt;/b&gt;&lt;br&gt;[SaaS - Atlassian]&lt;br&gt;&lt;br&gt;&lt;i&gt;Mesa de tickets del cliente; Asul usa una única cuenta compartida&lt;/i&gt;" vertex="1"><mxGeometry x="900" y="170" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="x-entra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Entra ID&lt;/b&gt;&lt;br&gt;[Directorio activo - dominio de Asul]&lt;br&gt;&lt;br&gt;&lt;i&gt;Identidad de Microsoft 365 con segundo factor (MFA)&lt;/i&gt;" vertex="1"><mxGeometry x="1000" y="390" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="x-teams" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Teams&lt;/b&gt;&lt;br&gt;[SaaS - Microsoft 365]&lt;br&gt;&lt;br&gt;&lt;i&gt;Reuniones, chat, informes y reportes de gestión&lt;/i&gt;" vertex="1"><mxGeometry x="560" y="620" width="240" height="100" as="geometry" /></mxCell>
-        <mxCell id="x-azure" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Ambientes de los Clientes en Microsoft Azure&lt;/b&gt;&lt;br&gt;[Máquinas virtuales + Azure SQL · East US / West US]&lt;br&gt;&lt;br&gt;&lt;i&gt;Pruebas y producción de SBS y de otros clientes, administrados por Asul&lt;/i&gt;" vertex="1"><mxGeometry x="0" y="840" width="280" height="120" as="geometry" /></mxCell>
-        <mxCell id="x-soc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;SOC del Proveedor de Ciberseguridad de Rentec&lt;/b&gt;&lt;br&gt;[Servicio gestionado]&lt;br&gt;&lt;br&gt;&lt;i&gt;Monitorea IPs no reconocidas y picos de solicitudes&lt;/i&gt;" vertex="1"><mxGeometry x="460" y="850" width="260" height="110" as="geometry" /></mxCell>
-        <mxCell id="s-eco" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=12;" value="&lt;b&gt;Ecosistema de Gestión de Desarrollo y Soporte de Asul&lt;/b&gt;&lt;br&gt;[Azure DevOps · GitHub · SharePoint]&lt;br&gt;&lt;br&gt;&lt;i&gt;Gestiona proyectos, casos de soporte, tiempos, código fuente y documentación de Asul Tecnologías de la Información SAS&lt;/i&gt;" vertex="1"><mxGeometry x="520" y="350" width="320" height="180" as="geometry" /></mxCell>
-        <mxCell id="r1" edge="1" parent="1" source="a-sbs" target="x-jira" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Crea tickets, los analiza en primer nivel&lt;br&gt;y asigna a Rentec los que debe atender Asul"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r2" edge="1" parent="1" source="a-rentec" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Responde el correo aprobando&lt;br&gt;requisitos y estimaciones"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r3" edge="1" parent="1" source="x-jira" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;" value="Notifica asignaciones, menciones&lt;br&gt;y movimientos de tickets [Email]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r4" edge="1" parent="1" source="x-correo" target="a-analista" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Avisa al equipo de&lt;br&gt;soporte cada movimiento"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r5" edge="1" parent="1" source="a-lider" target="x-jira" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Consulta y actualiza tickets con la&lt;br&gt;cuenta compartida &quot;Rentec&quot; [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r6" edge="1" parent="1" source="a-lider" target="s-eco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Transcribe manualmente los casos de Jira,&lt;br&gt;los diagnostica y cambia su estado [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r7" edge="1" parent="1" source="a-analista" target="s-eco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Gestiona y diagnostica&lt;br&gt;casos de soporte [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r8" edge="1" parent="1" source="a-equipo" target="s-eco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Gestiona requerimientos, desarrollo,&lt;br&gt;pruebas y tareas; registra tiempos&lt;br&gt;y versiona el código [HTTPS/Git]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r9" edge="1" parent="1" source="a-equipo" target="x-teams" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Se comunica en reuniones&lt;br&gt;y chats de proyecto"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r10" edge="1" parent="1" source="s-eco" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;" value="Documentos de requisitos (PDF) y&lt;br&gt;estimaciones se envían para aprobación"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r11" edge="1" parent="1" source="s-eco" target="x-entra" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Autentica usuarios del&lt;br&gt;dominio (SSO + MFA)"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-        <mxCell id="r12" edge="1" parent="1" source="a-lider" target="x-azure" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Despliega manualmente, sin CI/CD&lt;br&gt;[acceso por IP pública autorizada]"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="-60" y="445" /><mxPoint x="-60" y="900" /></Array></mxGeometry></mxCell>
-        <mxCell id="r13" edge="1" parent="1" source="x-soc" target="x-azure" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Monitorea accesos y picos;&lt;br&gt;alerta por correo"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
+<mxfile host="65bd71144e">
+    <diagram name="C1 - Contexto - Asul" id="asul-c1-contexto">
+        <mxGraphModel dx="2555" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1200" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="a-analista" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Analista de Sistemas de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Apoya al líder técnico en la gestión y diagnóstico de casos de soporte&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="110" width="240" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="a-lider" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Líder Técnico de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Gestiona los casos de soporte y es quien, por lo general, despliega a producción&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="110" width="240" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="a-equipo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Equipo de Desarrollo y Pruebas de Asul&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Desarrolladores y testers (menos de 10 personas) en equipos propios&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="110" width="240" y="610" as="geometry"/>
+                </mxCell>
+                <mxCell id="a-rentec" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Cliente Rentec&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Aprueba por correo documentos de requisitos y estimaciones&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="a-sbs" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Mesa de Primer Nivel de SBS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Cliente final de Rentec: crea y analiza tickets y los escala a Rentec&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="900" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-correo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Correo Electrónico&lt;/b&gt;&lt;br&gt;[Microsoft 365 / Outlook]&lt;br&gt;&lt;br&gt;&lt;i&gt;Notificaciones de Jira y aprobaciones formales del cliente&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="380" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-jira" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Jira de Rentec&lt;/b&gt;&lt;br&gt;[SaaS - Atlassian]&lt;br&gt;&lt;br&gt;&lt;i&gt;Mesa de tickets del cliente; Asul usa una única cuenta compartida&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="900" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-entra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Entra ID&lt;/b&gt;&lt;br&gt;[Directorio activo - dominio de Asul]&lt;br&gt;&lt;br&gt;&lt;i&gt;Identidad de Microsoft 365 con segundo factor (MFA)&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="1060" y="430" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-teams" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Teams&lt;/b&gt;&lt;br&gt;[SaaS - Microsoft 365]&lt;br&gt;&lt;br&gt;&lt;i&gt;Reuniones, chat, informes y reportes de gestión&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="100" width="240" x="560" y="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-azure" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Ambientes de los Clientes en Microsoft Azure&lt;/b&gt;&lt;br&gt;[Máquinas virtuales + Azure SQL · East US / West US]&lt;br&gt;&lt;br&gt;&lt;i&gt;Pruebas y producción de SBS y de otros clientes, administrados por Asul&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="120" width="280" y="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="x-soc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;SOC del Proveedor de Ciberseguridad de Rentec&lt;/b&gt;&lt;br&gt;[Servicio gestionado]&lt;br&gt;&lt;br&gt;&lt;i&gt;Monitorea IPs no reconocidas y picos de solicitudes&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="110" width="260" x="460" y="850" as="geometry"/>
+                </mxCell>
+                <mxCell id="s-eco" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#08427b;strokeColor=#052e56;fontColor=#ffffff;fontSize=12;" value="&lt;b&gt;Ecosistema de Gestión de Desarrollo y Soporte de Asul&lt;/b&gt;&lt;br&gt;[Azure DevOps · GitHub · SharePoint]&lt;br&gt;&lt;br&gt;&lt;i&gt;Gestiona proyectos, casos de soporte, tiempos, código fuente y documentación de Asul Tecnologías de la Información SAS&lt;/i&gt;" vertex="1">
+                    <mxGeometry height="180" width="320" x="620" y="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="r1" edge="1" parent="1" source="a-sbs" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="x-jira" value="Crea tickets, los analiza en primer nivel&lt;br&gt;y asigna a Rentec los que debe atender Asul">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r2" edge="1" parent="1" source="a-rentec" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="x-correo" value="Responde el correo aprobando&lt;br&gt;requisitos y estimaciones">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r3" edge="1" parent="1" source="x-jira" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;" target="x-correo" value="Notifica asignaciones, menciones&lt;br&gt;y movimientos de tickets [Email]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r4" edge="1" parent="1" source="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="a-analista" value="Avisa al equipo de&lt;br&gt;soporte cada movimiento">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Consulta y actualiza tickets con la&lt;br&gt;cuenta compartida &quot;Rentec&quot; [HTTPS]">
+                    <mxGeometry relative="1" x="-0.5644" y="-2" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="120" y="360"/>
+                            <mxPoint x="1020" y="360"/>
+                        </Array>
+                        <mxPoint x="120" y="400" as="sourcePoint"/>
+                        <mxPoint x="1020" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r6" edge="1" parent="1" source="a-lider" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;entryX=0;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" target="s-eco" value="Transcribe manualmente los casos de Jira,&lt;br&gt;los diagnostica y cambia su estado [HTTPS]">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r7" edge="1" parent="1" source="a-analista" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;entryX=0.043;entryY=-0.007;entryDx=0;entryDy=0;entryPerimeter=0;" target="s-eco" value="Gestiona y diagnostica&lt;br&gt;casos de soporte [HTTPS]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="320"/>
+                            <mxPoint x="633.76" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r8" edge="1" parent="1" source="a-equipo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Gestiona requerimientos, desarrollo,&lt;br&gt;pruebas y tareas; registra tiempos&lt;br&gt;y versiona el código [HTTPS/Git]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="120" y="550"/>
+                        </Array>
+                        <mxPoint x="610" y="550" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r9" edge="1" parent="1" source="a-equipo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="x-teams" value="Se comunica en reuniones&lt;br&gt;y chats de proyecto">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;entryX=1.01;entryY=0.878;entryDx=0;entryDy=0;entryPerimeter=0;" target="x-correo" value="Documentos de requisitos (PDF) y&lt;br&gt;estimaciones se envían para aprobación">
+                    <mxGeometry relative="1" x="-0.5328" y="-31" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="750" y="257.8"/>
+                        </Array>
+                        <mxPoint x="749.2269230769228" y="390" as="sourcePoint"/>
+                        <mxPoint x="619.9961538461533" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r11" edge="1" parent="1" source="s-eco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="x-entra" value="Autentica usuarios del&lt;br&gt;dominio (SSO + MFA)">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="r12" edge="1" parent="1" source="a-lider" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="x-azure" value="Despliega manualmente, sin CI/CD&lt;br&gt;[acceso por IP pública autorizada]">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="-60" y="445"/>
+                            <mxPoint x="-60" y="900"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="r13" edge="1" parent="1" source="x-soc" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" target="x-azure" value="Monitorea accesos y picos;&lt;br&gt;alerta por correo">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
 </mxfile>
