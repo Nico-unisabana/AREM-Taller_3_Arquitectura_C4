@@ -1,145 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
-  <diagram name="C2 - Contenedores - Asul" id="lRXOsrOZA2PT5GYaXxv6">
-    <mxGraphModel dx="1363" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram name="C2 - Contenedores - Asul" id="asul-c2-contenedores">
+    <mxGraphModel dx="1600" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Cliente Estratégico&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="110" width="220" x="20" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Consultor / Desarrollador&#xa;de Asul" vertex="1">
-          <mxGeometry height="90" width="220" x="20" y="300" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Gerente de Proyecto" vertex="1">
-          <mxGeometry height="90" width="220" x="20" y="500" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
-          <mxGeometry height="120" width="240" x="1080" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-5" parent="bZnnQm2Kc5gS2wfdPVhh-4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Sistemas de Información&#xa;del Cliente Estratégico" vertex="1">
-          <mxGeometry height="108" width="228" x="6" y="6" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#5c5c5c;fontColor=#ffffff;verticalAlign=top;spacingTop=6;" value="" vertex="1">
-          <mxGeometry height="130" width="240" x="1080" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-7" parent="bZnnQm2Kc5gS2wfdPVhh-6" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Organismo Certificador&#xa;de Calidad&#xa;(CMMI / MPS.Br / ISO 29110 / ITMark)" vertex="1">
-          <mxGeometry height="118" width="228" x="6" y="6" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontColor=#052e56;fontStyle=1;fontSize=13;" value="Plataforma de Gestión de Proyectos y Soporte (Asul Tecnologías de la Información SAS)" vertex="1">
-          <mxGeometry height="720" width="800" x="240" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-9" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Portal del Cliente&#xa;[Portal Web - ASP.NET MVC]" vertex="1">
-          <mxGeometry height="90" width="220" x="40" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-10" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Consola de Gestión de&#xa;Proyectos&#xa;[Aplicación Web - .NET]" vertex="1">
-          <mxGeometry height="90" width="220" x="480" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-11" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Bus de Integración SOA&#xa;[ESB - Servicios Web SOAP/REST]" vertex="1">
-          <mxGeometry height="90" width="240" x="260" y="210" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-12" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Gestión de&#xa;Desarrollo a la Medida&#xa;[Servicio SOA - .NET]" vertex="1">
-          <mxGeometry height="100" width="220" x="40" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-13" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Soporte Técnico&#xa;(Mesa de Ayuda)&#xa;[Servicio SOA - .NET]" vertex="1">
-          <mxGeometry height="100" width="220" x="480" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-14" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Módulo de Gestión de&#xa;Calidad y Cumplimiento&#xa;[Servicio SOA - .NET]" vertex="1">
-          <mxGeometry height="100" width="240" x="550" y="605" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-15" parent="bZnnQm2Kc5gS2wfdPVhh-8" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=12;fontStyle=1;" value="Base de Datos&lt;br&gt;Corporativa&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="160" x="300" y="620" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-24" edge="1" parent="bZnnQm2Kc5gS2wfdPVhh-8" source="bZnnQm2Kc5gS2wfdPVhh-13" target="bZnnQm2Kc5gS2wfdPVhh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;exitX=0.009;exitY=0.653;exitDx=0;exitDy=0;exitPerimeter=0;" value="SQL">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="430" y="424.9999999999999" as="sourcePoint" />
-            <mxPoint x="330" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-25" edge="1" parent="bZnnQm2Kc5gS2wfdPVhh-8" source="bZnnQm2Kc5gS2wfdPVhh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;exitX=0.088;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="bZnnQm2Kc5gS2wfdPVhh-14" value="Dispara evento — registra&amp;nbsp;&lt;div&gt;evidencia de cumplimiento&lt;/div&gt;">
-          <mxGeometry relative="1" x="-0.5721" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="59.4" y="567.54" />
-              <mxPoint x="540" y="567.54" />
-              <mxPoint x="540" y="630" />
-            </Array>
-            <mxPoint x="220" y="479.9999999999999" as="sourcePoint" />
-            <mxPoint x="630" y="675" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-16" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-9" value="HTTPS/JSON — solicita desarrollos&lt;div&gt;&amp;nbsp;y reporta incidentes&lt;/div&gt;">
-          <mxGeometry relative="1" x="0.0016" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="130" y="230" />
-              <mxPoint x="260" y="230" />
-              <mxPoint x="260" y="125" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-17" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-10" value="HTTPS — registra avances y atiende tickets">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-18" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-10" value="HTTPS — planifica y&amp;nbsp;&lt;div&gt;hace seguimiento&lt;/div&gt;">
-          <mxGeometry relative="1" x="-0.1379" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="960" y="545" />
-              <mxPoint x="960" y="125" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-19" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-11" value="SOAP/REST — enruta solicitud">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-20" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-11" value="SOAP/REST — enruta solicitud">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="800" y="200" />
-              <mxPoint x="630" y="200" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-21" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-12" value="REST interno — enruta solicitud de desarrollo">
-          <mxGeometry relative="1" x="0.8621" y="-20" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="620" y="360" />
-              <mxPoint x="390" y="360" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-22" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-13" value="REST interno — enruta&amp;nbsp;&lt;div&gt;incidente de soporte&lt;/div&gt;">
-          <mxGeometry relative="1" x="0.0034" as="geometry">
-            <mxPoint as="offset" />
-            <Array as="points">
-              <mxPoint x="630" y="370" />
-              <mxPoint x="830" y="370" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-23" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-15" value="SQL">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-26" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-14" value="Dispara evento — registra&amp;nbsp;&lt;div&gt;evidencia de cumplimiento&lt;/div&gt;">
-          <mxGeometry relative="1" x="-0.3552" y="-192" as="geometry">
-            <mxPoint x="-190" y="-165" as="offset" />
-            <Array as="points">
-              <mxPoint x="850" y="570" />
-              <mxPoint x="910" y="570" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-27" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;" target="bZnnQm2Kc5gS2wfdPVhh-15" value="SQL">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-28" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;" target="bZnnQm2Kc5gS2wfdPVhh-4" value="Servicios Web SOAP/REST — despliega e integra solución">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="bZnnQm2Kc5gS2wfdPVhh-29" edge="1" parent="1" source="bZnnQm2Kc5gS2wfdPVhh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;elbow=vertical;fontColor=#333333;fontSize=11;strokeColor=#333333;dashed=1;" target="bZnnQm2Kc5gS2wfdPVhh-6" value="REST/Reporte — envía&amp;nbsp;&lt;div&gt;evidencias de cumplimiento&lt;/div&gt;">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
+        <mxCell id="b-eco" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#052e56;dashed=1;verticalAlign=top;align=left;spacingLeft=10;spacingTop=6;fontColor=#052e56;fontStyle=1;fontSize=13;" value="Ecosistema de Gestión de Desarrollo y Soporte de Asul [Azure DevOps · GitHub · SharePoint]" vertex="1"><mxGeometry x="320" y="330" width="1240" height="420" as="geometry" /></mxCell>
+        <mxCell id="c-boards" parent="b-eco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Azure Boards y Queries&lt;/b&gt;&lt;br&gt;[Azure DevOps Services - SaaS]&lt;br&gt;&lt;br&gt;&lt;i&gt;Work items de proyectos (requerimientos, desarrollo, pruebas, tareas) y casos de soporte; historial por cambio; roles Administrador / Contributor&lt;/i&gt;" vertex="1"><mxGeometry x="40" y="60" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="c-time" parent="b-eco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Time Tracker&lt;/b&gt;&lt;br&gt;[Extensión licenciada de Azure DevOps]&lt;br&gt;&lt;br&gt;&lt;i&gt;Cronómetro iniciar / pausar / detener; asocia el tiempo a la actividad de soporte o desarrollo&lt;/i&gt;" vertex="1"><mxGeometry x="340" y="60" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="c-github" parent="b-eco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Repositorio de Código Fuente&lt;/b&gt;&lt;br&gt;[GitHub - Git]&lt;br&gt;&lt;br&gt;&lt;i&gt;Código de los proyectos de los clientes&lt;/i&gt;" vertex="1"><mxGeometry x="660" y="60" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="c-sharepoint" parent="b-eco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#438dd5;strokeColor=#2e6295;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Gestión Documental&lt;/b&gt;&lt;br&gt;[SharePoint Online]&lt;br&gt;&lt;br&gt;&lt;i&gt;Documentos de requisitos y estimaciones; versiones borrador (1.1, 1.2…) y líneas base (1.0, 2.0) con trazabilidad&lt;/i&gt;" vertex="1"><mxGeometry x="960" y="60" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="i-disco" parent="b-eco" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Discos de Backup&lt;/b&gt;&lt;br&gt;[Almacenamiento externo]&lt;br&gt;&lt;br&gt;&lt;i&gt;Copias de código fuente con retención indefinida y copia semanal de documentos&lt;/i&gt;" vertex="1"><mxGeometry x="660" y="260" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="i-servidor" parent="b-eco" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#6b6b6b;strokeColor=#4a4a4a;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Equipo de Respaldo Local&lt;/b&gt;&lt;br&gt;[PC usado como servidor - oficina Chía]&lt;br&gt;&lt;br&gt;&lt;i&gt;Sincroniza SharePoint a una carpeta local&lt;/i&gt;" vertex="1"><mxGeometry x="960" y="260" width="250" height="130" as="geometry" /></mxCell>
+        <mxCell id="ri1" edge="1" parent="1" source="c-time" target="c-boards" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Registra tiempos&lt;br&gt;en el work item"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="ri2" edge="1" parent="1" source="c-github" target="i-disco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Copia de seguridad&lt;br&gt;del código"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="ri3" edge="1" parent="1" source="c-sharepoint" target="i-servidor" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Sincronización diaria&lt;br&gt;(solo si el PC está encendido)"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="ri4" edge="1" parent="1" source="i-servidor" target="i-disco" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Copia semanal&lt;br&gt;a otro directorio"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="a-analista" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Analista de Sistemas de Asul&lt;/b&gt;" vertex="1"><mxGeometry x="0" y="360" width="220" height="90" as="geometry" /></mxCell>
+        <mxCell id="a-lider" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Líder Técnico de Asul&lt;/b&gt;" vertex="1"><mxGeometry x="0" y="560" width="220" height="90" as="geometry" /></mxCell>
+        <mxCell id="a-equipo" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Equipo de Desarrollo y Pruebas de Asul&lt;/b&gt;" vertex="1"><mxGeometry x="820" y="830" width="240" height="100" as="geometry" /></mxCell>
+        <mxCell id="a-sbs" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Mesa de Primer Nivel de SBS&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Cliente final de Rentec&lt;/i&gt;" vertex="1"><mxGeometry x="360" y="0" width="240" height="90" as="geometry" /></mxCell>
+        <mxCell id="a-rentec" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1168bd;strokeColor=#0b4884;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Cliente Rentec&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;i&gt;Aprobador de requisitos y estimaciones&lt;/i&gt;" vertex="1"><mxGeometry x="1280" y="0" width="240" height="90" as="geometry" /></mxCell>
+        <mxCell id="x-jira" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Jira de Rentec&lt;/b&gt;&lt;br&gt;[SaaS - Atlassian]" vertex="1"><mxGeometry x="360" y="170" width="240" height="90" as="geometry" /></mxCell>
+        <mxCell id="x-correo" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Correo Electrónico&lt;/b&gt;&lt;br&gt;[Microsoft 365 / Outlook]" vertex="1"><mxGeometry x="1280" y="170" width="240" height="90" as="geometry" /></mxCell>
+        <mxCell id="x-entra" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Entra ID&lt;/b&gt;&lt;br&gt;[Directorio activo + MFA]" vertex="1"><mxGeometry x="1640" y="440" width="220" height="90" as="geometry" /></mxCell>
+        <mxCell id="x-teams" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Microsoft Teams&lt;/b&gt;&lt;br&gt;[SaaS - Microsoft 365]" vertex="1"><mxGeometry x="1160" y="835" width="220" height="90" as="geometry" /></mxCell>
+        <mxCell id="x-azure" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;Ambientes de los Clientes en Microsoft Azure&lt;/b&gt;&lt;br&gt;[Máquinas virtuales + Azure SQL · East US / West US]&lt;br&gt;&lt;br&gt;&lt;i&gt;Réplica entre regiones con pruebas de DR; 2 réplicas de BD (reportes y standby); Azure Monitor&lt;/i&gt;" vertex="1"><mxGeometry x="0" y="1000" width="300" height="130" as="geometry" /></mxCell>
+        <mxCell id="x-soc" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#8a8a8a;strokeColor=#5c5c5c;fontColor=#ffffff;fontSize=11;" value="&lt;b&gt;SOC del Proveedor de Ciberseguridad de Rentec&lt;/b&gt;&lt;br&gt;[Servicio gestionado]" vertex="1"><mxGeometry x="440" y="1020" width="260" height="90" as="geometry" /></mxCell>
+        <mxCell id="r1" edge="1" parent="1" source="a-sbs" target="x-jira" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Crea tickets y asigna a Rentec"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r2" edge="1" parent="1" source="x-jira" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;" value="Notifica asignaciones, menciones y movimientos [Email]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r3" edge="1" parent="1" source="a-rentec" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Aprueba respondiendo el correo"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r4" edge="1" parent="1" source="a-lider" target="x-jira" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Consulta tickets con la cuenta&lt;br&gt;compartida &quot;Rentec&quot; [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r5" edge="1" parent="1" source="a-lider" target="c-boards" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Transcribe manualmente el caso,&lt;br&gt;diagnostica y cambia estado [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r6" edge="1" parent="1" source="a-analista" target="c-boards" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Gestiona y diagnostica&lt;br&gt;casos [HTTPS]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r7" edge="1" parent="1" source="a-equipo" target="c-boards" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" value="Gestiona requerimientos,&lt;br&gt;desarrollo, pruebas y tareas"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r8" edge="1" parent="1" source="a-equipo" target="c-time" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.88;entryY=1;entryDx=0;entryDy=0;" value="Inicia / detiene el&lt;br&gt;cronómetro por actividad"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r9" edge="1" parent="1" source="a-equipo" target="c-github" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;exitX=0.52;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" value="Versiona el código&lt;br&gt;[Git/HTTPS]"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="945" y="455" /></Array></mxGeometry></mxCell>
+        <mxCell id="r10" edge="1" parent="1" source="a-equipo" target="x-teams" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Reuniones y chat"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r11" edge="1" parent="1" source="c-sharepoint" target="x-correo" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;dashed=1;" value="Requisitos (PDF) y estimaciones&lt;br&gt;se adjuntan al correo de aprobación"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r12" edge="1" parent="1" source="c-sharepoint" target="x-entra" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" value="Autentica (SSO + MFA)"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r13" edge="1" parent="1" source="c-boards" target="x-entra" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" value="Autentica usuarios de Azure DevOps (SSO + MFA)"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="547" y="300" /><mxPoint x="1750" y="300" /></Array></mxGeometry></mxCell>
+        <mxCell id="r14" edge="1" parent="1" source="a-lider" target="x-azure" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Despliega manualmente, sin CI/CD&lt;br&gt;[acceso por IP pública autorizada]"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
+        <mxCell id="r15" edge="1" parent="1" source="x-soc" target="x-azure" style="rounded=0;html=1;endArrow=block;fontColor=#333333;fontSize=10;strokeColor=#333333;labelBackgroundColor=#ffffff;" value="Monitorea accesos y picos;&lt;br&gt;alerta por correo"><mxGeometry relative="1" as="geometry"></mxGeometry></mxCell>
       </root>
     </mxGraphModel>
   </diagram>
